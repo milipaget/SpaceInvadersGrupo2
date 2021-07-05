@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="f1" displayName="BackEnd" projectFiles="true">
+        <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/aliens.h</itemPath>
+        <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/barriers.h</itemPath>
+        <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/bullet.h</itemPath>
+        <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/constantes.h</itemPath>
+        <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/highscore.h</itemPath>
+        <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/menu.h</itemPath>
+        <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/pause.h</itemPath>
+        <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/play.h</itemPath>
+        <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/position.h</itemPath>
+        <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/randomalien.h</itemPath>
+        <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/spaceInvaders.h</itemPath>
+        <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/spaceship.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2" displayName="FrontEnd" projectFiles="true">
+        <logicalFolder name="f2" displayName="Allegro" projectFiles="true">
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/Allegro/allegro.h</itemPath>
+        </logicalFolder>
+        <logicalFolder name="f1" displayName="Raspi" projectFiles="true">
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/Raspi/audio_raspi.h</itemPath>
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/Raspi/caracteres.h</itemPath>
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/Raspi/disdrv.h</itemPath>
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/Raspi/fondos.h</itemPath>
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/Raspi/joydrv.h</itemPath>
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/Raspi/libaudio.h</itemPath>
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/Raspi/objects.h</itemPath>
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/Raspi/raspi.h</itemPath>
+        </logicalFolder>
+        <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/graphics.h</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <logicalFolder name="Resources" displayName="Resources" projectFiles="true">
+        <logicalFolder name="Bitmaps" displayName="Bitmaps" projectFiles="true">
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapAlien0.bmp</itemPath>
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapAlien1.bmp</itemPath>
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapAlien2.bmp</itemPath>
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapAlien3.bmp</itemPath>
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapAlien4.bmp</itemPath>
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapAlien5.bmp</itemPath>
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapBarriers0.bmp</itemPath>
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapBarriers1.bmp</itemPath>
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapBarriers2.bmp</itemPath>
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapBarriers3.bmp</itemPath>
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapBarriers4.bmp</itemPath>
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapBullet0.bmp</itemPath>
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapFondosExtra0.bmp</itemPath>
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapFondosExtra1.bmp</itemPath>
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapFondosExtra2.bmp</itemPath>
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapLives0.bmp</itemPath>
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapLives1.bmp</itemPath>
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapMenu0.png</itemPath>
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapMenu1.png</itemPath>
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapMenu2.png</itemPath>
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapMenu3.png</itemPath>
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapMenu4.png</itemPath>
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapMenu5.png</itemPath>
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapRandomAlien0.bmp</itemPath>
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapSpaceship0.bmp</itemPath>
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/fondo_juego.bmp</itemPath>
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/score.bmp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="Sounds" displayName="Sounds" projectFiles="true">
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Sounds/SampleMenu0.wav</itemPath>
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Sounds/SampleMenu1.wav</itemPath>
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Sounds/SampleMenu2.wav</itemPath>
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Sounds/SampleMenu3.wav</itemPath>
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Sounds/audio.mp3</itemPath>
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Sounds/menu_2.wav</itemPath>
+        </logicalFolder>
+        <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/scoreboard.txt</itemPath>
+        <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/space_invaders.ttf</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="BackEnd" displayName="BackEnd" projectFiles="true">
+        <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/aliens.c</itemPath>
+        <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/barriers.c</itemPath>
+        <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/bullet.c</itemPath>
+        <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/highscore.c</itemPath>
+        <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/menu.c</itemPath>
+        <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/pause.c</itemPath>
+        <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/play.c</itemPath>
+        <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/position.c</itemPath>
+        <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/randomalien.c</itemPath>
+        <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/spaceInvaders.c</itemPath>
+        <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/spaceship.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="FrontEnd" displayName="FrontEnd" projectFiles="true">
+        <logicalFolder name="Allegro" displayName="Allegro" projectFiles="true">
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/Allegro/allegro.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="Raspi" displayName="Raspi" projectFiles="true">
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/Raspi/caracteres.c</itemPath>
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/Raspi/fondos.c</itemPath>
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/Raspi/objects.c</itemPath>
+          <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/Raspi/raspi.c</itemPath>
+        </logicalFolder>
+        <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/graphics.c</itemPath>
+      </logicalFolder>
+      <itemPath>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/main.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <warningLevel>2</warningLevel>
+        </cTool>
+        <asmTool>
+          <warningLevel>2</warningLevel>
+        </asmTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerOptionItem>`pkg-config --libs allegro-5`</linkerOptionItem>
+            <linkerOptionItem>`pkg-config --libs allegro_acodec-5`</linkerOptionItem>
+            <linkerOptionItem>`pkg-config --libs allegro_audio-5`</linkerOptionItem>
+            <linkerOptionItem>`pkg-config --libs allegro_color-5`</linkerOptionItem>
+            <linkerOptionItem>`pkg-config --libs allegro_dialog-5`</linkerOptionItem>
+            <linkerOptionItem>`pkg-config --libs allegro_font-5`</linkerOptionItem>
+            <linkerOptionItem>`pkg-config --libs allegro_image-5`</linkerOptionItem>
+            <linkerOptionItem>`pkg-config --libs allegro_main-5`</linkerOptionItem>
+            <linkerOptionItem>`pkg-config --libs allegro_memfile-5`</linkerOptionItem>
+            <linkerOptionItem>`pkg-config --libs allegro_physfs-5`</linkerOptionItem>
+            <linkerOptionItem>`pkg-config --libs allegro_primitives-5`</linkerOptionItem>
+            <linkerOptionItem>`pkg-config --libs allegro_ttf-5`</linkerOptionItem>
+            <linkerOptionItem>`pkg-config --libs allegro_video-5`</linkerOptionItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/aliens.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/aliens.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/barriers.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/barriers.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/bullet.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/bullet.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/constantes.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/highscore.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/highscore.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/menu.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/menu.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/pause.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/pause.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/play.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/play.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/position.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/position.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/randomalien.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/randomalien.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/spaceInvaders.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/spaceInvaders.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/spaceship.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/spaceship.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/Allegro/allegro.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/Allegro/allegro.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/Raspi/audio_raspi.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/Raspi/caracteres.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/Raspi/caracteres.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/Raspi/disdrv.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/Raspi/fondos.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/Raspi/fondos.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/Raspi/joydrv.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/Raspi/libaudio.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/Raspi/objects.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/Raspi/objects.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/Raspi/raspi.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/Raspi/raspi.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/graphics.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/graphics.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapAlien0.bmp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapAlien1.bmp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapAlien2.bmp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapAlien3.bmp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapAlien4.bmp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapAlien5.bmp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapBarriers0.bmp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapBarriers1.bmp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapBarriers2.bmp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapBarriers3.bmp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapBarriers4.bmp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapBullet0.bmp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapFondosExtra0.bmp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapFondosExtra1.bmp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapFondosExtra2.bmp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapLives0.bmp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapLives1.bmp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapMenu0.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapMenu1.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapMenu2.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapMenu3.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapMenu4.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapMenu5.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapRandomAlien0.bmp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapSpaceship0.bmp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/fondo_juego.bmp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/score.bmp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Sounds/SampleMenu0.wav"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Sounds/SampleMenu1.wav"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Sounds/SampleMenu2.wav"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Sounds/SampleMenu3.wav"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Sounds/audio.mp3"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Sounds/menu_2.wav"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/scoreboard.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/space_invaders.ttf"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/main.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/aliens.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/aliens.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/barriers.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/barriers.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/bullet.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/bullet.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/constantes.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/highscore.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/highscore.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/menu.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/menu.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/pause.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/pause.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/play.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/play.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/position.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/position.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/randomalien.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/randomalien.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/spaceInvaders.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/spaceInvaders.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/spaceship.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/BackEnd/spaceship.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/Allegro/allegro.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/Allegro/allegro.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/Raspi/audio_raspi.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/Raspi/caracteres.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/Raspi/caracteres.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/Raspi/disdrv.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/Raspi/fondos.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/Raspi/fondos.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/Raspi/joydrv.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/Raspi/libaudio.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/Raspi/objects.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/Raspi/objects.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/Raspi/raspi.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/Raspi/raspi.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/graphics.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/FrontEnd/graphics.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapAlien0.bmp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapAlien1.bmp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapAlien2.bmp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapAlien3.bmp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapAlien4.bmp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapAlien5.bmp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapBarriers0.bmp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapBarriers1.bmp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapBarriers2.bmp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapBarriers3.bmp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapBarriers4.bmp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapBullet0.bmp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapFondosExtra0.bmp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapFondosExtra1.bmp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapFondosExtra2.bmp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapLives0.bmp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapLives1.bmp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapMenu0.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapMenu1.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapMenu2.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapMenu3.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapMenu4.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapMenu5.png"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapRandomAlien0.bmp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/BitmapSpaceship0.bmp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/fondo_juego.bmp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Bitmaps/score.bmp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Sounds/SampleMenu0.wav"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Sounds/SampleMenu1.wav"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Sounds/SampleMenu2.wav"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Sounds/SampleMenu3.wav"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Sounds/audio.mp3"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/Sounds/menu_2.wav"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/scoreboard.txt"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/Resources/space_invaders.ttf"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/mpaget/Desktop/PROGRAMACION/TP11/SpaceInvadersGrupo2/main.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
